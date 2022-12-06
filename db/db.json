@@ -1,52 +1,60 @@
 {
-  "toys": [
+  "zooAnimals": [
     {
-      "id": 1,
-      "name": "Woody",
-      "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png",
-      "likes": 8
+      "name": "Pancake Tortoise",
+      "class": "Reptile",
+      "lifespan": "30",
+      "image_link": "https://upload.wikimedia.org/wikipedia/commons/9/93/Malacochersus_tornieri.jpg",
+      "likes": 24,
+      "id": 132
     },
     {
-      "id": 2,
-      "name": "Buzz Lightyear",
-      "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png",
-      "likes": 14
+      "name": "Chuckwalla",
+      "class": "Reptile",
+      "lifespan": "15",
+      "image_link": "https://upload.wikimedia.org/wikipedia/commons/1/15/Sauromalus_ater_%283%29.jpg",
+      "likes": 0,
+      "id": 54
     },
     {
-      "id": 3,
-      "name": "Mr. Potato Head",
-      "image": "https://vignette.wikia.nocookie.net/universe-of-smash-bros-lawl/images/d/d8/Mr-potato-head-toy-story.gif/revision/latest?cb=20151129131217",
-      "likes": 3
+      "name": "Howler Monkey",
+      "class": "Mammal",
+      "lifespan": "18",
+      "image_link": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Alouatta_guariba.jpg",
+      "likes": 2,
+      "id": 89
     },
     {
-      "id": 4,
-      "name": "Slinky Dog",
-      "image": "https://www.freeiconspng.com/uploads/slinky-png-transparent-1.png",
-      "likes": 4
+      "name": "White-bearded Wildebeest",
+      "class": "Mammal",
+      "lifespan": "10",
+      "image_link": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Blue_Wildebeest%2C_Ngorongoro.jpg",
+      "likes": 2,
+      "id": 187
     },
     {
-      "id": 5,
-      "name": "Rex",
-      "image": "http://umich.edu/~chemh215/W11HTML/SSG5/ssg5.2/FRex.png",
-      "likes": 1
+      "name": "White-naped Pheasant Pigeon",
+      "class": "Bird",
+      "lifespan": "5",
+      "image_link": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Otidiphaps_nobilis_-Cincinnati_Zoo%2C_Ohio%2C_USA-8a.jpg",
+      "likes": 0,
+      "id": 191
     },
     {
-      "id": 6,
-      "name": "Bo Peep",
-      "image": "http://4.bp.blogspot.com/_OZHbJ8c71OM/Sog43CMFX2I/AAAAAAAADEs/0AKX0XslD4g/s400/bo.png",
-      "likes": 2
+      "name": "Black Rhinoceros",
+      "class": "Mammal",
+      "lifespan": "40",
+      "image_link": "https://upload.wikimedia.org/wikipedia/commons/2/22/2012_Black_Rhinoceros_Gemsbokvlakte.jpg",
+      "likes": 0,
+      "id": 33
     },
     {
-      "id": 7,
-      "name": "Hamm!!!!",
-      "image": "https://cdn140.picsart.com/244090226021212.png?r1024x1024",
-      "likes": 0
-    },
-    {
-      "id": 8,
-      "name": "Little Green Men",
-      "image": "http://www.pngmart.com/files/3/Toy-Story-Alien-PNG-File.png",
-      "likes": -2
+      "name": "Screaming Hairy Armadillo",
+      "class": "Mammal",
+      "lifespan": "16",
+      "image_link": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Chaetophractus_vellerosus3.jpg",
+      "likes": 10,
+      "id": 160
     }
   ]
 }
