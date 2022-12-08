@@ -70,14 +70,14 @@ function buildAnimal(animal) {
 // FETCH REQUESTS
 // GET - Display all pictures of zoo animals.
 function getAnimals() {
-    fetch('http://localhost:3000/zooAnimals')
+    fetch('https://zoo-animals-server.onrender.com/zooAnimals')
         .then(response => response.json())
         .then(allAnimals => allAnimals.forEach(animal => buildAnimal(animal)))
 }
 
 // POST - Create/add pictures of zoo animals.
 function addAnimal(animalObject) {
-    fetch('http://localhost:3000/zooAnimals', {
+    fetch('https://zoo-animals-server.onrender.com/zooAnimals', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
@@ -91,7 +91,7 @@ function addAnimal(animalObject) {
 
 // PATCH - updates the number of likes of zoo animals.
 function updateLikes(animalObject) {
-    fetch(`http://localhost:3000/zooAnimals/${animalObject.id}`, {
+    fetch(`https://zoo-animals-server.onrender.com/zooAnimals/${animalObject.id}`, {
         method: 'PATCH',
         headers: {
             'Content-Type': 'application/json'
@@ -104,7 +104,7 @@ function updateLikes(animalObject) {
 
 // DELETE - remove pictures of zoo animals.
 function deleteAnimal(id) {
-    fetch(`http://localhost:3000/zooAnimals/${id}`, {
+    fetch(`https://zoo-animals-server.onrender.com/zooAnimals/${id}`, {
         method: 'DELETE',
         headers: {
             'Content-Type': 'application/json'
