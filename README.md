@@ -2,7 +2,9 @@
 
 ## Description
 
-
+This project is designed to display pictures of zoo animals 
+It also has a form so that you can add animals to the list, 
+add some likes to a particular animal, and delete an animal from the list.
 
 ## Setup
 
