@@ -46,8 +46,8 @@ function buildAnimal(animal) {
         <div class="buttons">
             <button id = 'likes'> Likes </button>
             <button id = 'delete'> Delete </button>
-            <br><br>
-        </div>   
+            <br><br> 
+        </div> 
      `
     // Click event listener to add the number of likes to the animals
      card.querySelector('#likes').addEventListener('click', () => {
