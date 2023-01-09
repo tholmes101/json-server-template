@@ -7,7 +7,7 @@ h1 {
 
 .card {
     
-    
+    border: grey solid 1px;
     width: 15rem;
     display: inline-grid;
     margin: 1rem 2rem;

@@ -40,8 +40,8 @@ function buildAnimal(animal) {
         <img src="${animal.image_link}" class="card-img-top" style="width: 15rem; height: 15rem;">
         <div class="content">
             <h5 class="card-title">${animal.name}</h5>
-            <p>Animal Class - ${animal.class}</p>
-            <p>Life Span - ${animal.lifespan}</p>
+            <div>Animal Class - ${animal.class}</div>
+            <div>Life Span - ${animal.lifespan}</div>
             <p><b>Likes - <span class="like-count">${animal.likes}</span></b></p>
         </div>
         <div class="buttons">
