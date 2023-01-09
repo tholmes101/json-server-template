@@ -37,7 +37,7 @@ function buildAnimal(animal) {
     card.className = 'card'
     card.innerHTML = `
         
-        <img src="${animal.image_link}" class="card-img-top" style="width: 15rem; height: 15rem;">
+        <img src="${animal.image_link}" class="card-img-top" style="width: 15rem; height: 10rem;">
         <div class="content">
             <h5 class="card-title">${animal.name}</h5>
             <div>Animal Class - ${animal.class}</div>
