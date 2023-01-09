@@ -33,12 +33,13 @@ function handleSubmit(event) {
 
 //DOM Function to build a list of animals
 function buildAnimal(animal) {
-    let card = document.createElement('li')
+    let card = document.createElement('div')
     card.className = 'card'
     card.innerHTML = `
-        <img src="${animal.image_link}"
+        
+        <img src="${animal.image_link}" class="card-img-top" style="width: 15rem;">
         <div class="content">
-            <h4>${animal.name}</h4>
+            <h5 class="card-title">${animal.name}</h5>
             <p>Animal Class - ${animal.class}</p>
             <p>Life Span - ${animal.lifespan}</p>
             <p><b>Likes - <span class="like-count">${animal.likes}</span></b></p>
