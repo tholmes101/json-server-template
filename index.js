@@ -73,7 +73,7 @@ function buildAnimal(animal) {
 function getAnimals() {
     fetch('https://zoo-animals-server.onrender.com/zooAnimals')
         .then(response => response.json())
-        .then(allAnimals => allAnimals.forEach(animal => buildAnimal(animal)))
+        .then(zooAnimals => zooAnimals.forEach(animal => buildAnimal(animal)))
 }
 
 // POST - Create/add pictures of zoo animals.
@@ -86,7 +86,7 @@ function addAnimal(animalObject) {
         body: JSON.stringify(animalObject)
     })
         .then(response => response.json())
-        .then(animal => console.log(animal))
+        .then(zooAnimals => zooAnimals.forEach(animal => buildAnimal(animal)))
 
 }
 
@@ -100,7 +100,7 @@ function updateLikes(animalObject) {
         body: JSON.stringify(animalObject)
     })
         .then(response => response.json())
-        .then(animal => console.log(animal))
+        .then(zooAnimals => zooAnimals.forEach(animal => buildAnimal(animal)))
 }
 
 // DELETE - remove pictures of zoo animals.
@@ -112,7 +112,7 @@ function deleteAnimal(id) {
         },
     })
         .then(response => response.json())
-        .then(animal => console.log(animal))
+        .then(zooAnimals => zooAnimals.forEach(animal => buildAnimal(animal)))
 }
 
 // Get animal data and render the animals to the DOM.
